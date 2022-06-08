@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body>
+
+    <div class="single-item">
+
+        <div><img src="https://i.pinimg.com/736x/01/ee/09/01ee096bbbdbddca1a7a570ea4386da0--dire-wolf-dog-tags.jpg"></div>
+        <div><img src="https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Science/animals/articles/animales-domesticos/guinea-pig.jpg"></div>
+        <div><img src="http://www.masquesaludanimal.es//posts/asset_upload_file39075_613728.jpg"></div>
+        <div><img src="https://tendencias21.levante-emv.com/wp-content/uploads/2020/11/giraffes-627033_1280-740x493.jpg"></div>
+        <div><img src="https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Science/animals/articles/animales-de-la-granja/horses.jpg"></div>
+        <div><img src="https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Science/animals/articles/animales-domesticos/dog.jpg"></div>
+
+    </div>
+
+    <div class="multiple-item">
+
+        <div><img src="https://i.pinimg.com/736x/01/ee/09/01ee096bbbdbddca1a7a570ea4386da0--dire-wolf-dog-tags.jpg" width="500"></div>
+        <div><img src="https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Science/animals/articles/animales-domesticos/guinea-pig.jpg" width="500"></div>
+        <div><img src="http://www.masquesaludanimal.es//posts/asset_upload_file39075_613728.jpg" width="500"></div>
+        <div><img src="https://tendencias21.levante-emv.com/wp-content/uploads/2020/11/giraffes-627033_1280-740x493.jpg" width="500"></div>
+        <div><img src="https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Science/animals/articles/animales-de-la-granja/horses.jpg" width="500"></div>
+        <div><img src="https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Science/animals/articles/animales-domesticos/dog.jpg" width="500"></div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+
+        $('.single-item').slick({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            fade: true,
+            speed: 5000
+        });
+        $('.multiple-item').slick({
+            infinite:false,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+        });
+
+    </script>
+</body>
+
+</html>
